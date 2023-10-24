@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CONTATO</title>
+</head>
+<body>
+  <nav class="navbar">
+    <img src="./img/logo.png" alt="logo da empresa">
+    <ul class="links">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="sobre.html">SOBRE</a></li>
+      <li><a href="galeria.html">GALERIA</a></li>
+      <li><a href="contato.html">CONTATO</a></li>
+    </ul>
+  </nav>
+  <section class="content">
+    <form action="enviado.html" method="get" class="formulario">
+      <h1>Entre em contato</h1>
+      <div>
+
+        <label for="name"> Nome:
+  
+          <input type="text" name="name" placeholder="Digite seu nome" id="name">
+        </label>
+      </div>
+      <div>
+
+        <label for="email">Email:
+  
+          <input type="email" name="email" placeholder="Digite seu email" id="email">
+        </label>
+      </div>
+
+      <div>
+        <label for="mensagem"> Deixe seu mensagem:
+          <textarea name="Mensagem" id="mensagem" placeholder="Digite sua mensagem" cols="30" rows="10"></textarea>
+        </label>
+      </div>
+      <button type="button" onclick="window.location.href = 'enviado.html'">Enviar</button>
+    </form>
+  </section>
+</body>
+</html>
