@@ -225,6 +225,20 @@ h4 {
   margin: 0;
 }
 
+.card-msg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  bottom: 50%;
+}
+
 footer {
   background-color: cadetblue;
   text-align: center;
